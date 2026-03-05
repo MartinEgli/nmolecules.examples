@@ -1,0 +1,16 @@
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\bin\Debug\net8.0\Samples.Block02.ArchitectureStyles.deps.json
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\bin\Debug\net8.0\Samples.Block02.ArchitectureStyles.dll
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\bin\Debug\net8.0\Samples.Block02.ArchitectureStyles.pdb
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\bin\Debug\net8.0\nMolecules.Architecture.dll
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\bin\Debug\net8.0\nMolecules.Architecture.pdb
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\obj\Debug\net8.0\Samples.Block02.ArchitectureStyles.csproj.AssemblyReference.cache
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\obj\Debug\net8.0\Samples.Block02.ArchitectureStyles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\obj\Debug\net8.0\Samples.Block02.ArchitectureStyles.AssemblyInfoInputs.cache
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\obj\Debug\net8.0\Samples.Block02.ArchitectureStyles.AssemblyInfo.cs
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\obj\Debug\net8.0\Samples.Block02.ArchitectureStyles.csproj.CoreCompileInputs.cache
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\obj\Debug\net8.0\Samples.Block02.ArchitectureStyles.sourcelink.json
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\obj\Debug\net8.0\Samples..238AF154.Up2Date
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\obj\Debug\net8.0\Samples.Block02.ArchitectureStyles.dll
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\obj\Debug\net8.0\refint\Samples.Block02.ArchitectureStyles.dll
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\obj\Debug\net8.0\Samples.Block02.ArchitectureStyles.pdb
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\obj\Debug\net8.0\ref\Samples.Block02.ArchitectureStyles.dll

@@ -1,0 +1,16 @@
+C:\Reops\nmolecules\nmolecules.examples\samples\03-events\obj\Debug\net8.0\Samples.Block03.Events.GeneratedMSBuildEditorConfig.editorconfig
+C:\Reops\nmolecules\nmolecules.examples\samples\03-events\obj\Debug\net8.0\Samples.Block03.Events.AssemblyInfoInputs.cache
+C:\Reops\nmolecules\nmolecules.examples\samples\03-events\obj\Debug\net8.0\Samples.Block03.Events.AssemblyInfo.cs
+C:\Reops\nmolecules\nmolecules.examples\samples\03-events\obj\Debug\net8.0\Samples.Block03.Events.csproj.CoreCompileInputs.cache
+C:\Reops\nmolecules\nmolecules.examples\samples\03-events\obj\Debug\net8.0\Samples.Block03.Events.sourcelink.json
+C:\Reops\nmolecules\nmolecules.examples\samples\03-events\bin\Debug\net8.0\Samples.Block03.Events.deps.json
+C:\Reops\nmolecules\nmolecules.examples\samples\03-events\bin\Debug\net8.0\Samples.Block03.Events.dll
+C:\Reops\nmolecules\nmolecules.examples\samples\03-events\bin\Debug\net8.0\Samples.Block03.Events.pdb
+C:\Reops\nmolecules\nmolecules.examples\samples\03-events\bin\Debug\net8.0\nMolecules.Events.dll
+C:\Reops\nmolecules\nmolecules.examples\samples\03-events\bin\Debug\net8.0\nMolecules.Events.pdb
+C:\Reops\nmolecules\nmolecules.examples\samples\03-events\obj\Debug\net8.0\Samples.Block03.Events.csproj.AssemblyReference.cache
+C:\Reops\nmolecules\nmolecules.examples\samples\03-events\obj\Debug\net8.0\Samples..C831BA38.Up2Date
+C:\Reops\nmolecules\nmolecules.examples\samples\03-events\obj\Debug\net8.0\Samples.Block03.Events.dll
+C:\Reops\nmolecules\nmolecules.examples\samples\03-events\obj\Debug\net8.0\refint\Samples.Block03.Events.dll
+C:\Reops\nmolecules\nmolecules.examples\samples\03-events\obj\Debug\net8.0\Samples.Block03.Events.pdb
+C:\Reops\nmolecules\nmolecules.examples\samples\03-events\obj\Debug\net8.0\ref\Samples.Block03.Events.dll

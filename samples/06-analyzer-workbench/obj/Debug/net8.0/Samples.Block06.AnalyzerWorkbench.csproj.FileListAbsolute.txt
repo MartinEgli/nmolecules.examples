@@ -1,0 +1,16 @@
+C:\Reops\nmolecules\nmolecules.examples\samples\06-analyzer-workbench\obj\Debug\net8.0\Samples.Block06.AnalyzerWorkbench.GeneratedMSBuildEditorConfig.editorconfig
+C:\Reops\nmolecules\nmolecules.examples\samples\06-analyzer-workbench\obj\Debug\net8.0\Samples.Block06.AnalyzerWorkbench.AssemblyInfoInputs.cache
+C:\Reops\nmolecules\nmolecules.examples\samples\06-analyzer-workbench\obj\Debug\net8.0\Samples.Block06.AnalyzerWorkbench.AssemblyInfo.cs
+C:\Reops\nmolecules\nmolecules.examples\samples\06-analyzer-workbench\obj\Debug\net8.0\Samples.Block06.AnalyzerWorkbench.csproj.CoreCompileInputs.cache
+C:\Reops\nmolecules\nmolecules.examples\samples\06-analyzer-workbench\obj\Debug\net8.0\Samples.Block06.AnalyzerWorkbench.sourcelink.json
+C:\Reops\nmolecules\nmolecules.examples\samples\06-analyzer-workbench\bin\Debug\net8.0\Samples.Block06.AnalyzerWorkbench.deps.json
+C:\Reops\nmolecules\nmolecules.examples\samples\06-analyzer-workbench\bin\Debug\net8.0\Samples.Block06.AnalyzerWorkbench.dll
+C:\Reops\nmolecules\nmolecules.examples\samples\06-analyzer-workbench\bin\Debug\net8.0\Samples.Block06.AnalyzerWorkbench.pdb
+C:\Reops\nmolecules\nmolecules.examples\samples\06-analyzer-workbench\bin\Debug\net8.0\nMolecules.DDD.dll
+C:\Reops\nmolecules\nmolecules.examples\samples\06-analyzer-workbench\bin\Debug\net8.0\nMolecules.DDD.pdb
+C:\Reops\nmolecules\nmolecules.examples\samples\06-analyzer-workbench\obj\Debug\net8.0\Samples.Block06.AnalyzerWorkbench.csproj.AssemblyReference.cache
+C:\Reops\nmolecules\nmolecules.examples\samples\06-analyzer-workbench\obj\Debug\net8.0\Samples..32AD4432.Up2Date
+C:\Reops\nmolecules\nmolecules.examples\samples\06-analyzer-workbench\obj\Debug\net8.0\Samples.Block06.AnalyzerWorkbench.dll
+C:\Reops\nmolecules\nmolecules.examples\samples\06-analyzer-workbench\obj\Debug\net8.0\refint\Samples.Block06.AnalyzerWorkbench.dll
+C:\Reops\nmolecules\nmolecules.examples\samples\06-analyzer-workbench\obj\Debug\net8.0\Samples.Block06.AnalyzerWorkbench.pdb
+C:\Reops\nmolecules\nmolecules.examples\samples\06-analyzer-workbench\obj\Debug\net8.0\ref\Samples.Block06.AnalyzerWorkbench.dll

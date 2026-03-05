@@ -1,0 +1,16 @@
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\cqrs\bin\Debug\net8.0\Samples.Architecture.Cqrs.deps.json
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\cqrs\bin\Debug\net8.0\Samples.Architecture.Cqrs.dll
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\cqrs\bin\Debug\net8.0\Samples.Architecture.Cqrs.pdb
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\cqrs\bin\Debug\net8.0\nMolecules.Architecture.dll
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\cqrs\bin\Debug\net8.0\nMolecules.Architecture.pdb
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\cqrs\obj\Debug\net8.0\Samples.Architecture.Cqrs.csproj.AssemblyReference.cache
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\cqrs\obj\Debug\net8.0\Samples.Architecture.Cqrs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\cqrs\obj\Debug\net8.0\Samples.Architecture.Cqrs.AssemblyInfoInputs.cache
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\cqrs\obj\Debug\net8.0\Samples.Architecture.Cqrs.AssemblyInfo.cs
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\cqrs\obj\Debug\net8.0\Samples.Architecture.Cqrs.csproj.CoreCompileInputs.cache
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\cqrs\obj\Debug\net8.0\Samples.Architecture.Cqrs.sourcelink.json
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\cqrs\obj\Debug\net8.0\Samples..76D1B257.Up2Date
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\cqrs\obj\Debug\net8.0\Samples.Architecture.Cqrs.dll
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\cqrs\obj\Debug\net8.0\refint\Samples.Architecture.Cqrs.dll
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\cqrs\obj\Debug\net8.0\Samples.Architecture.Cqrs.pdb
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\cqrs\obj\Debug\net8.0\ref\Samples.Architecture.Cqrs.dll

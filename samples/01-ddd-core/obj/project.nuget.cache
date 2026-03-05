@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "fgHig/cbng8=",
+  "success": true,
+  "projectFilePath": "C:\\Reops\\nmolecules\\nmolecules.examples\\samples\\01-ddd-core\\Samples.Block01.DddCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\EGLM4\\.nuget\\packages\\nmolecules.ddd\\0.2.2\\nmolecules.ddd.0.2.2.nupkg.sha512"
+  ],
+  "logs": []
+}

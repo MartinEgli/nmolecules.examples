@@ -1,0 +1,16 @@
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\microservices\bin\Debug\net8.0\Samples.Architecture.Microservices.deps.json
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\microservices\bin\Debug\net8.0\Samples.Architecture.Microservices.dll
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\microservices\bin\Debug\net8.0\Samples.Architecture.Microservices.pdb
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\microservices\bin\Debug\net8.0\nMolecules.Architecture.dll
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\microservices\bin\Debug\net8.0\nMolecules.Architecture.pdb
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\microservices\obj\Debug\net8.0\Samples.Architecture.Microservices.csproj.AssemblyReference.cache
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\microservices\obj\Debug\net8.0\Samples.Architecture.Microservices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\microservices\obj\Debug\net8.0\Samples.Architecture.Microservices.AssemblyInfoInputs.cache
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\microservices\obj\Debug\net8.0\Samples.Architecture.Microservices.AssemblyInfo.cs
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\microservices\obj\Debug\net8.0\Samples.Architecture.Microservices.csproj.CoreCompileInputs.cache
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\microservices\obj\Debug\net8.0\Samples.Architecture.Microservices.sourcelink.json
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\microservices\obj\Debug\net8.0\Samples..E5EE8A80.Up2Date
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\microservices\obj\Debug\net8.0\Samples.Architecture.Microservices.dll
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\microservices\obj\Debug\net8.0\refint\Samples.Architecture.Microservices.dll
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\microservices\obj\Debug\net8.0\Samples.Architecture.Microservices.pdb
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\microservices\obj\Debug\net8.0\ref\Samples.Architecture.Microservices.dll

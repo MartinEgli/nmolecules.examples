@@ -1,0 +1,16 @@
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\onion-classic\bin\Debug\net8.0\Samples.Architecture.OnionClassic.deps.json
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\onion-classic\bin\Debug\net8.0\Samples.Architecture.OnionClassic.dll
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\onion-classic\bin\Debug\net8.0\Samples.Architecture.OnionClassic.pdb
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\onion-classic\bin\Debug\net8.0\nMolecules.Architecture.dll
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\onion-classic\bin\Debug\net8.0\nMolecules.Architecture.pdb
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\onion-classic\obj\Debug\net8.0\Samples.Architecture.OnionClassic.csproj.AssemblyReference.cache
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\onion-classic\obj\Debug\net8.0\Samples.Architecture.OnionClassic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\onion-classic\obj\Debug\net8.0\Samples.Architecture.OnionClassic.AssemblyInfoInputs.cache
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\onion-classic\obj\Debug\net8.0\Samples.Architecture.OnionClassic.AssemblyInfo.cs
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\onion-classic\obj\Debug\net8.0\Samples.Architecture.OnionClassic.csproj.CoreCompileInputs.cache
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\onion-classic\obj\Debug\net8.0\Samples.Architecture.OnionClassic.sourcelink.json
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\onion-classic\obj\Debug\net8.0\Samples..ED852DD7.Up2Date
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\onion-classic\obj\Debug\net8.0\Samples.Architecture.OnionClassic.dll
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\onion-classic\obj\Debug\net8.0\refint\Samples.Architecture.OnionClassic.dll
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\onion-classic\obj\Debug\net8.0\Samples.Architecture.OnionClassic.pdb
+C:\Reops\nmolecules\nmolecules.examples\samples\02-architecture-styles\onion-classic\obj\Debug\net8.0\ref\Samples.Architecture.OnionClassic.dll

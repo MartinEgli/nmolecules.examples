@@ -1,0 +1,16 @@
+C:\Reops\nmolecules\nmolecules.examples\samples\01-ddd-core\obj\Debug\net8.0\Samples.Block01.DddCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Reops\nmolecules\nmolecules.examples\samples\01-ddd-core\obj\Debug\net8.0\Samples.Block01.DddCore.AssemblyInfoInputs.cache
+C:\Reops\nmolecules\nmolecules.examples\samples\01-ddd-core\obj\Debug\net8.0\Samples.Block01.DddCore.AssemblyInfo.cs
+C:\Reops\nmolecules\nmolecules.examples\samples\01-ddd-core\obj\Debug\net8.0\Samples.Block01.DddCore.csproj.CoreCompileInputs.cache
+C:\Reops\nmolecules\nmolecules.examples\samples\01-ddd-core\obj\Debug\net8.0\Samples.Block01.DddCore.sourcelink.json
+C:\Reops\nmolecules\nmolecules.examples\samples\01-ddd-core\bin\Debug\net8.0\Samples.Block01.DddCore.deps.json
+C:\Reops\nmolecules\nmolecules.examples\samples\01-ddd-core\bin\Debug\net8.0\Samples.Block01.DddCore.dll
+C:\Reops\nmolecules\nmolecules.examples\samples\01-ddd-core\bin\Debug\net8.0\Samples.Block01.DddCore.pdb
+C:\Reops\nmolecules\nmolecules.examples\samples\01-ddd-core\bin\Debug\net8.0\nMolecules.DDD.dll
+C:\Reops\nmolecules\nmolecules.examples\samples\01-ddd-core\bin\Debug\net8.0\nMolecules.DDD.pdb
+C:\Reops\nmolecules\nmolecules.examples\samples\01-ddd-core\obj\Debug\net8.0\Samples.Block01.DddCore.csproj.AssemblyReference.cache
+C:\Reops\nmolecules\nmolecules.examples\samples\01-ddd-core\obj\Debug\net8.0\Samples..E5210559.Up2Date
+C:\Reops\nmolecules\nmolecules.examples\samples\01-ddd-core\obj\Debug\net8.0\Samples.Block01.DddCore.dll
+C:\Reops\nmolecules\nmolecules.examples\samples\01-ddd-core\obj\Debug\net8.0\refint\Samples.Block01.DddCore.dll
+C:\Reops\nmolecules\nmolecules.examples\samples\01-ddd-core\obj\Debug\net8.0\Samples.Block01.DddCore.pdb
+C:\Reops\nmolecules\nmolecules.examples\samples\01-ddd-core\obj\Debug\net8.0\ref\Samples.Block01.DddCore.dll
