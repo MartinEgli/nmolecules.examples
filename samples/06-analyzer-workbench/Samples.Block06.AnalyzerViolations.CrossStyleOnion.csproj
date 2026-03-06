@@ -4,13 +4,12 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\nmolecules\src\nMolecules.DDD\nMolecules.DDD.csproj" />
     <ProjectReference Include="..\..\..\nmolecules\src\nMolecules.Architecture\nMolecules.Architecture.csproj" />
-    <ProjectReference Include="..\..\..\nmolecules\src\nMolecules.Events\nMolecules.Events.csproj" />
-    <ProjectReference Include="..\..\..\nmolecules\src\nMolecules.Bricks\nMolecules.Bricks.csproj" />
+    <ProjectReference Include="..\..\..\nmolecules\src\nMolecules.DDD\nMolecules.DDD.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -21,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Remove="**\Good*.cs" />
+    <Compile Include="scenarios\violations\isolated\BadCrossStyleOnion.cs" />
   </ItemGroup>
 
 </Project>

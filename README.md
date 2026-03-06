@@ -35,6 +35,35 @@ This means each core nMolecules project and the analyzer project has at least on
 From the superproject root (`C:\Reops\nmolecules`):
 
 ```powershell
+dotnet build .\nmolecules.examples\nMolecules.Examples.sln -v minimal
+```
+
+Solution variants:
+
+- `nMolecules.Examples.Green.sln` / `nMolecules.Examples.Green.slnx`: all sample projects that are expected to build cleanly
+- `nMolecules.Examples.All.sln` / `nMolecules.Examples.All.slnx`: includes the intentional violations project (`Samples.Block06.AnalyzerViolations.csproj`)
+- architecture-specific `.slnx` entry points:
+- `nMolecules.Examples.Layered.slnx`
+- `nMolecules.Examples.Cqrs.slnx`
+- `nMolecules.Examples.OnionClassic.slnx`
+- `nMolecules.Examples.OnionSimplified.slnx`
+- `nMolecules.Examples.Hexagonal.slnx`
+- `nMolecules.Examples.Microservices.slnx`
+- `nMolecules.Examples.EventStorming.slnx`
+- `nMolecules.Examples.Mvvm.slnx`
+
+```powershell
+dotnet build .\nmolecules.examples\nMolecules.Examples.Green.sln -v minimal
+dotnet build .\nmolecules.examples\nMolecules.Examples.All.sln -v minimal
+dotnet build .\nmolecules.examples\nMolecules.Examples.Layered.slnx -v minimal
+dotnet build .\nmolecules.examples\nMolecules.Examples.Cqrs.slnx -v minimal
+```
+
+Note: `All` is expected to report analyzer errors because it includes intentional violation samples.
+
+Or build sample projects individually:
+
+```powershell
 dotnet build .\nmolecules.examples\samples\01-ddd-core\Samples.Block01.DddCore.csproj -v minimal
 dotnet build .\nmolecules.examples\samples\02-architecture-styles\layered\Samples.Architecture.Layered.csproj -v minimal
 dotnet build .\nmolecules.examples\samples\02-architecture-styles\cqrs\Samples.Architecture.Cqrs.csproj -v minimal
@@ -50,6 +79,8 @@ dotnet build .\nmolecules.examples\samples\05-entity-framework\Samples.Block05.E
 dotnet build .\nmolecules.examples\samples\06-analyzer-workbench\Samples.Block06.AnalyzerWorkbench.csproj -v minimal
 dotnet build .\nmolecules.examples\samples\07-ddd-from-pdfs\Samples.Block07.DddFromPdfs.csproj -v minimal
 ```
+
+If you want to focus on one architecture style without the rest of the learning path, open the matching style-specific `.slnx` file from the repository root.
 
 ## How To Work Through The Blocks
 

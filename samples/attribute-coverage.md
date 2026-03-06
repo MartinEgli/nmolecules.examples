@@ -8,17 +8,17 @@ Status baseline: March 5, 2026
 
 | Attribute | Sample |
 |---|---|
-| `AggregateRoot` | `samples/01-ddd-core/DddCoreSample.cs`, `samples/06-analyzer-workbench/GoodExample.cs` |
-| `AllowRepositoryComposition` | `samples/01-ddd-core/DddLegacyAndCompositionSample.cs`, `samples/06-analyzer-workbench/BadExample.cs` |
-| `ApplicationService` | `samples/01-ddd-core/DddCoreSample.cs`, `samples/06-analyzer-workbench/GoodExample.cs` |
+| `AggregateRoot` | `samples/01-ddd-core/DddCoreSample.cs`, `samples/06-analyzer-workbench/scenarios/good/checkout/GoodExample.cs` |
+| `AllowRepositoryComposition` | `samples/01-ddd-core/DddLegacyAndCompositionSample.cs`, `samples/06-analyzer-workbench/scenarios/violations/ddd/BadExample.cs` |
+| `ApplicationService` | `samples/01-ddd-core/DddCoreSample.cs`, `samples/06-analyzer-workbench/scenarios/good/checkout/GoodExample.cs` |
 | `BoundedContext` | `samples/01-ddd-core/DddCoreSample.cs`, `samples/05-entity-framework/EntityFrameworkSample.cs` |
-| `DomainService` | `samples/01-ddd-core/DddCoreSample.cs`, `samples/06-analyzer-workbench/GoodExample.cs` |
+| `DomainService` | `samples/01-ddd-core/DddCoreSample.cs`, `samples/06-analyzer-workbench/scenarios/good/checkout/GoodExample.cs` |
 | `Entity` | `samples/01-ddd-core/DddLegacyAndCompositionSample.cs` |
 | `Factory` | `samples/01-ddd-core/DddCoreSample.cs` |
-| `Identity` | `samples/01-ddd-core/DddCoreSample.cs`, `samples/06-analyzer-workbench/GoodExample.cs` |
+| `Identity` | `samples/01-ddd-core/DddCoreSample.cs`, `samples/06-analyzer-workbench/scenarios/good/checkout/GoodExample.cs` |
 | `Module` | `samples/01-ddd-core/DddCoreSample.cs`, `samples/05-entity-framework/EntityFrameworkSample.cs` |
-| `Repository` | `samples/01-ddd-core/DddCoreSample.cs`, `samples/06-analyzer-workbench/GoodExample.cs` |
-| `Service` (legacy) | `samples/01-ddd-core/DddLegacyAndCompositionSample.cs`, `samples/06-analyzer-workbench/BadExample.cs` |
+| `Repository` | `samples/01-ddd-core/DddCoreSample.cs`, `samples/06-analyzer-workbench/scenarios/good/checkout/GoodExample.cs` |
+| `Service` (legacy) | `samples/01-ddd-core/DddLegacyAndCompositionSample.cs`, `samples/06-analyzer-workbench/scenarios/violations/ddd/BadExample.cs` |
 | `ValueObject` | `samples/01-ddd-core/DddCoreSample.cs`, `samples/05-entity-framework/EntityFrameworkSample.cs` |
 
 ## Architecture (`NMolecules.Architecture`)
@@ -108,9 +108,9 @@ Status baseline: March 5, 2026
 
 | Attribute | Sample |
 |---|---|
-| `DomainEvent` | `samples/03-events/EventsSample.cs` |
-| `DomainEventHandler` | `samples/03-events/EventsSample.cs` |
-| `DomainEventPublisher` | `samples/03-events/EventsSample.cs` |
+| `DomainEvent` | `samples/03-events/scenarios/invoice-created/event/InvoiceCreated.cs` |
+| `DomainEventHandler` | `samples/03-events/scenarios/invoice-created/handling/InvoiceAuditHandler.cs` |
+| `DomainEventPublisher` | `samples/03-events/scenarios/invoice-created/publishing/IDomainEventBus.cs` |
 
 ## Bricks (`NMolecules.Bricks`)
 

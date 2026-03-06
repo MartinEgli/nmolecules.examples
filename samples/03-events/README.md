@@ -16,9 +16,10 @@ This block shows how event payloads, publishers, and handlers become explicit ro
 
 ## Code Walkthrough
 
-- `EventsSample.cs` contains a simple "invoice created" flow
-- the publisher abstraction and in-memory implementation are separated
-- an audit handler and a projection handler react to the same event
+- `EventsSample.cs` is now only the small entry/index file for the block
+- `scenarios/invoice-created/event/InvoiceCreated.cs` contains the payload of the use case
+- `scenarios/invoice-created/publishing/` contains the publisher contract and in-memory publisher
+- `scenarios/invoice-created/handling/` contains the audit and projection reactions for the same event
 
 ## Exercises
 

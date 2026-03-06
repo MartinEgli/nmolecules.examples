@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/samples/" />
+  <Folder Name="/samples/02-architecture-styles/" />
+  <Folder Name="/samples/02-architecture-styles/mvvm/">
+    <Project Path="samples/02-architecture-styles/mvvm/Samples.Architecture.Mvvm.csproj" />
+  </Folder>
+  <Project Path="../nmolecules/src/nMolecules.Architecture/nMolecules.Architecture.csproj" />
+</Solution>

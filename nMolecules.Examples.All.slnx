@@ -1,0 +1,53 @@
+<Solution>
+  <Folder Name="/samples/" />
+  <Folder Name="/samples/01-ddd-core/">
+    <Project Path="samples/01-ddd-core/Samples.Block01.DddCore.csproj" />
+  </Folder>
+  <Folder Name="/samples/02-architecture-styles/" />
+  <Folder Name="/samples/02-architecture-styles/cqrs/">
+    <Project Path="samples/02-architecture-styles/cqrs/Samples.Architecture.Cqrs.csproj" />
+  </Folder>
+  <Folder Name="/samples/02-architecture-styles/event-storming/">
+    <Project Path="samples/02-architecture-styles/event-storming/Samples.Architecture.EventStorming.csproj" />
+  </Folder>
+  <Folder Name="/samples/02-architecture-styles/hexagonal/">
+    <Project Path="samples/02-architecture-styles/hexagonal/Samples.Architecture.Hexagonal.csproj" />
+  </Folder>
+  <Folder Name="/samples/02-architecture-styles/layered/">
+    <Project Path="samples/02-architecture-styles/layered/Samples.Architecture.Layered.csproj" />
+  </Folder>
+  <Folder Name="/samples/02-architecture-styles/microservices/">
+    <Project Path="samples/02-architecture-styles/microservices/Samples.Architecture.Microservices.csproj" />
+  </Folder>
+  <Folder Name="/samples/02-architecture-styles/mvvm/">
+    <Project Path="samples/02-architecture-styles/mvvm/Samples.Architecture.Mvvm.csproj" />
+  </Folder>
+  <Folder Name="/samples/02-architecture-styles/onion-classic/">
+    <Project Path="samples/02-architecture-styles/onion-classic/Samples.Architecture.OnionClassic.csproj" />
+  </Folder>
+  <Folder Name="/samples/02-architecture-styles/onion-simplified/">
+    <Project Path="samples/02-architecture-styles/onion-simplified/Samples.Architecture.OnionSimplified.csproj" />
+  </Folder>
+  <Folder Name="/samples/03-events/">
+    <Project Path="samples/03-events/Samples.Block03.Events.csproj" />
+  </Folder>
+  <Folder Name="/samples/04-bricks/">
+    <Project Path="samples/04-bricks/Samples.Block04.Bricks.csproj" />
+  </Folder>
+  <Folder Name="/samples/05-entity-framework/">
+    <Project Path="samples/05-entity-framework/Samples.Block05.EntityFramework.csproj" />
+  </Folder>
+  <Folder Name="/samples/06-analyzer-workbench/">
+    <Project Path="samples/06-analyzer-workbench/Samples.Block06.AnalyzerViolations.csproj" />
+    <Project Path="samples/06-analyzer-workbench/Samples.Block06.AnalyzerWorkbench.csproj" />
+  </Folder>
+  <Folder Name="/samples/07-ddd-from-pdfs/">
+    <Project Path="samples/07-ddd-from-pdfs/Samples.Block07.DddFromPdfs.csproj" />
+  </Folder>
+  <Project Path="../nmolecules-integrations/nmolecules-roslyn/src/nMolecules.Analyzers/nMolecules.Analyzers/nMolecules.Analyzers.csproj" />
+  <Project Path="../nmolecules/src/nMolecules.Architecture/nMolecules.Architecture.csproj" />
+  <Project Path="../nmolecules/src/nMolecules.Bricks/nMolecules.Bricks.csproj" />
+  <Project Path="../nmolecules/src/nMolecules.DDD/nMolecules.DDD.csproj" />
+  <Project Path="../nmolecules/src/nMolecules.Events/nMolecules.Events.csproj" />
+  <Project Path="../nmolecules/src/nMolecules.Persistence.EntityFramework/nMolecules.Persistence.EntityFramework.csproj" />
+</Solution>

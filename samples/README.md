@@ -5,6 +5,7 @@ This folder contains the complete guided sample path.
 Coverage reference:
 
 - `attribute-coverage.md` maps all current attributes to concrete sample files.
+- `analyzer-rule-coverage.md` maps all current analyzer rule ids to intentional violation samples.
 
 ## Blocks
 
@@ -23,6 +24,11 @@ Coverage reference:
    Separate `good` and `violations` projects to inspect analyzer diagnostics.
 7. `07-ddd-from-pdfs`  
    DDD patterns derived from local PDF books and mapped to nMolecules C# samples.
+
+## Folder Style
+
+Newer or refreshed blocks use `scenarios/` subfolders so one block reads like one logical use case instead of a flat file dump.
+Entry-point files such as `BricksSample.cs` or `EventsSample.cs` stay at block root, while the actual domain/application/infrastructure pieces live underneath the scenario folder.
 
 ## Build Everything
 

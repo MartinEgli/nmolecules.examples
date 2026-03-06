@@ -12,17 +12,22 @@ Bricks lets you define those roles and constraints without creating a custom ana
 - role assignment via `[Role]`
 - custom marker aliases via `[RoleAlias]`
 - generic dependency policies via `[Rule]`
-- specialization via derived role attributes (`Billing*RoleAttribute`)
+- expressive alias markers such as `Billing*RoleAttribute`
 - centralized role/rule constants (`BillingRoles`, `BillingRules`)
-- rule-message customization and filtering fields
+- typed role-id and rule-id access via `RoleId` and `RuleId` alongside attribute-safe string constants
+- rule-message customization and dedicated rule-filter attributes
+- sample rule declarations for every optional `Rule` field
 
 ## Code Walkthrough
 
-- `BricksSample.cs` defines a small billing role model
-- the assembly-level rule forbids domain-to-infrastructure dependencies
-- custom marker attributes map to brick roles
-- role and rule keys are centralized in dedicated constants classes
-- an application service depends on a repository contract, not infrastructure implementation
+- `BricksSample.cs` is now only the small entry/index file for the sample block
+- `scenarios/billing-contracts/catalog/` contains the centralized role and rule catalogs
+- `scenarios/billing-contracts/roles/` contains the alias-style custom role markers
+- `scenarios/billing-contracts/rules/` contains the assembly-level dependency rules, including one example for every optional `Rule` filter attribute
+- `scenarios/billing-contracts/domain/` contains the domain policy and repository contract
+- `scenarios/billing-contracts/application/` contains the orchestration use case
+- `scenarios/billing-contracts/infrastructure/` contains the infrastructure implementation
+- `scenarios/billing-contracts/filter-scenarios/` contains concrete class and member names for `Message`, `Excluded*`, and `Required*` filter scenarios
 
 ## Exercises
 

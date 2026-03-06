@@ -13,6 +13,17 @@ This block is now split into one sample project per architecture style.
 - `event-storming/Samples.Architecture.EventStorming.csproj`
 - `mvvm/Samples.Architecture.Mvvm.csproj`
 
+## Style-Specific Solutions
+
+- `../../nMolecules.Examples.Layered.slnx`
+- `../../nMolecules.Examples.Cqrs.slnx`
+- `../../nMolecules.Examples.OnionClassic.slnx`
+- `../../nMolecules.Examples.OnionSimplified.slnx`
+- `../../nMolecules.Examples.Hexagonal.slnx`
+- `../../nMolecules.Examples.Microservices.slnx`
+- `../../nMolecules.Examples.EventStorming.slnx`
+- `../../nMolecules.Examples.Mvvm.slnx`
+
 ## Why This Split Exists
 
 Cross-style combinations in one project can produce style-mixing diagnostics.
