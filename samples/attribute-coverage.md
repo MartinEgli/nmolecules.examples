@@ -2,7 +2,10 @@
 
 This matrix maps every current nMolecules attribute to at least one sample location.
 
-Status baseline: March 5, 2026
+Status baseline: March 7, 2026
+
+Block `06` entries below are green comparison examples only.
+Intentional violation coverage now lives in the owning blocks and is tracked separately in `analyzer-rule-coverage.md`.
 
 ## DDD (`NMolecules.DDD`)
 

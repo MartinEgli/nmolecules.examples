@@ -39,6 +39,11 @@ Sample projects also share a common baseline:
 - local project files keep only sample-specific references or compile filtering
 - block READMEs follow the same learning structure where possible: `Why`, `What`, `Code Walkthrough`, `Exercises`
 
+Build intent:
+
+- `build-all.ps1` builds the green path only
+- `nMolecules.Examples.All.sln` and `nMolecules.Examples.All.slnx` include the intentional violations corpus
+
 ## Build Everything
 
 From superproject root:

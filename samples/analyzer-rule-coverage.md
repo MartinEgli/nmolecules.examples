@@ -1,8 +1,9 @@
 # Analyzer Rule Coverage Matrix
 
-Status baseline: March 6, 2026
+Status baseline: March 7, 2026
 
-This matrix maps every current Roslyn analyzer rule id to at least one intentional violation sample in either `samples/02-architecture-styles` or `samples/06-analyzer-workbench`.
+This matrix maps every current Roslyn analyzer rule id to at least one intentional violation sample in the owning sample blocks.
+Intentional violations now live in Blocks `01` to `04`, while Block `06` remains the green analyzer comparison baseline.
 
 ## AggregateRootAnalyzers
 

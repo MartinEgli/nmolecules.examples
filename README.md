@@ -29,6 +29,7 @@ All samples live in `samples/` and are grouped by increasing complexity.
 | `07` | DDD patterns derived from local PDF books | `nmolecules/src/nMolecules.DDD`, `nmolecules/src/nMolecules.Events` |
 
 This means each core nMolecules project and the analyzer project has at least one dedicated sample project.
+Intentional violations now live next to the matching sample family instead of being centralized in one analyzer-only block.
 
 Sample projects intentionally follow one shared baseline:
 
@@ -42,6 +43,7 @@ From the superproject root (`C:\Reops\nmolecules`):
 
 ```powershell
 dotnet build .\nmolecules.examples\nMolecules.Examples.sln -v minimal
+pwsh .\nmolecules.examples\samples\build-all.ps1
 ```
 
 Solution variants:
@@ -66,6 +68,7 @@ dotnet build .\nmolecules.examples\nMolecules.Examples.Cqrs.slnx -v minimal
 ```
 
 Note: `All` is expected to report analyzer errors because it includes intentional violation samples from Blocks 01 to 04.
+`build-all.ps1` is the green path and keeps the intentionally failing violation projects out of the default teaching build.
 
 Or build sample projects individually:
 
@@ -110,3 +113,10 @@ Intentional violations live next to the matching sample families in Blocks `01` 
 Block `06` has these explicit entry points:
 
 - `Samples.Block06.AnalyzerWorkbench.csproj`: green baseline with analyzers enabled
+
+The owning violation entry points are:
+
+- Block `01`: DDD and metadata violations
+- Block `02`: architecture-style-specific violations
+- Block `03`: event violations
+- Block `04`: Bricks violations
