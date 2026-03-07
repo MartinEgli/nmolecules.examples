@@ -18,6 +18,8 @@ Bricks lets you define those roles and constraints without creating a custom ana
 - typed role-id and rule-id access via `RoleId` and `RuleId` alongside attribute-safe string constants
 - rule-message customization and dedicated rule-filter attributes
 - sample rule declarations for every optional `Rule` field
+- conceptual member-cardinality patterns for custom brick ecosystems:
+  exactly one marker, required X+Y markers, fixed-count markers, and XOR markers
 
 ## Code Walkthrough
 
@@ -26,6 +28,7 @@ Bricks lets you define those roles and constraints without creating a custom ana
 - `scenarios/billing-contracts/catalog/` contains the centralized role and rule catalogs
 - `scenarios/billing-contracts/roles/` contains the alias-style custom role markers
 - `scenarios/billing-contracts/rules/` contains the assembly-level dependency rules, including one example for every optional `Rule` filter attribute
+- `scenarios/billing-contracts/rules/BillingAttributeContractPatterns.cs` shows custom attribute-contract patterns that teams can layer on top of Bricks
 - `scenarios/billing-contracts/domain/` contains the domain policy and repository contract
 - `scenarios/billing-contracts/application/` contains the orchestration use case
 - `scenarios/billing-contracts/infrastructure/` contains the infrastructure implementation
@@ -34,5 +37,6 @@ Bricks lets you define those roles and constraints without creating a custom ana
 ## Exercises
 
 1. Add a second rule (`RequireDependency`) between application and domain roles.
-2. Add a new custom alias attribute for a reporting role and annotate one type.
-3. Build `Samples.Block04.Bricks.Violations.csproj` and inspect the invalid rule configuration plus the forbidden domain-to-infrastructure dependency.
+2. Extend the attribute-contract sample with a fifth pattern, for example "at least one of three markers".
+3. Add a new custom alias attribute for a reporting role and annotate one type.
+4. Build `Samples.Block04.Bricks.Violations.csproj` and inspect the invalid rule configuration plus the forbidden domain-to-infrastructure dependency.
