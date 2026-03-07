@@ -3,6 +3,6 @@
   <Folder Name="/samples/02-architecture-styles/" />
   <Folder Name="/samples/02-architecture-styles/cqrs/">
     <Project Path="samples/02-architecture-styles/cqrs/Samples.Architecture.Cqrs.csproj" />
+    <Project Path="samples/02-architecture-styles/cqrs/Samples.Architecture.Cqrs.Violations.csproj" />
   </Folder>
-  <Project Path="../nmolecules/src/nMolecules.Architecture/nMolecules.Architecture.csproj" />
 </Solution>

@@ -1,6 +1,7 @@
 # Block 04: Bricks
 
 This block demonstrates custom role and rule modeling via `NMolecules.Bricks`.
+It now also contains the Bricks-specific analyzer violations that used to be mixed into the analyzer workbench.
 
 ## Why This Block Exists
 
@@ -21,6 +22,7 @@ Bricks lets you define those roles and constraints without creating a custom ana
 ## Code Walkthrough
 
 - `BricksSample.cs` is now only the small entry/index file for the sample block
+- `Samples.Block04.Bricks.Violations.csproj` contains the intentionally broken custom-role rule declarations
 - `scenarios/billing-contracts/catalog/` contains the centralized role and rule catalogs
 - `scenarios/billing-contracts/roles/` contains the alias-style custom role markers
 - `scenarios/billing-contracts/rules/` contains the assembly-level dependency rules, including one example for every optional `Rule` filter attribute
@@ -33,4 +35,4 @@ Bricks lets you define those roles and constraints without creating a custom ana
 
 1. Add a second rule (`RequireDependency`) between application and domain roles.
 2. Add a new custom alias attribute for a reporting role and annotate one type.
-3. Intentionally add a domain-to-infrastructure dependency and inspect the diagnostics.
+3. Build `Samples.Block04.Bricks.Violations.csproj` and inspect the invalid rule configuration plus the forbidden domain-to-infrastructure dependency.

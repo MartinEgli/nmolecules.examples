@@ -3,6 +3,6 @@
   <Folder Name="/samples/02-architecture-styles/" />
   <Folder Name="/samples/02-architecture-styles/microservices/">
     <Project Path="samples/02-architecture-styles/microservices/Samples.Architecture.Microservices.csproj" />
+    <Project Path="samples/02-architecture-styles/microservices/Samples.Architecture.Microservices.Violations.csproj" />
   </Folder>
-  <Project Path="../nmolecules/src/nMolecules.Architecture/nMolecules.Architecture.csproj" />
 </Solution>

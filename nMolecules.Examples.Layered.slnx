@@ -3,6 +3,7 @@
   <Folder Name="/samples/02-architecture-styles/" />
   <Folder Name="/samples/02-architecture-styles/layered/">
     <Project Path="samples/02-architecture-styles/layered/Samples.Architecture.Layered.csproj" />
+    <Project Path="samples/02-architecture-styles/layered/Samples.Architecture.Layered.Violations.csproj" />
+    <Project Path="samples/02-architecture-styles/layered/Samples.Architecture.Layered.CrossStyle.csproj" />
   </Folder>
-  <Project Path="../nmolecules/src/nMolecules.Architecture/nMolecules.Architecture.csproj" />
 </Solution>

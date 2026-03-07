@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\nmolecules\src\nMolecules.Architecture.Cqrs\nMolecules.Architecture.Cqrs.csproj" />
+    <ProjectReference Include="..\..\..\..\nmolecules\src\nMolecules.Architecture.Hexagonal\nMolecules.Architecture.Hexagonal.csproj" />
+    <ProjectReference Include="..\..\..\..\nmolecules\src\nMolecules.DDD\nMolecules.DDD.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\nmolecules-integrations\nmolecules-roslyn\src\nMolecules.Analyzers\nMolecules.Analyzers\nMolecules.Analyzers.csproj"
+                      OutputItemType="Analyzer"
+                      ReferenceOutputAssembly="false" />
+    <Analyzer Include="..\..\..\..\nmolecules-integrations\nmolecules-roslyn\src\nMolecules.Analyzers\nMolecules.Analyzers\bin\Debug\netstandard2.0\nMolecules.DDD.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="violations\HostHexagonalBoundary.cs" />
+    <Compile Include="violations\BadCqrsRules.cs" />
+    <Compile Include="violations\BadCqrsCompleteness.cs" />
+    <Compile Include="violations\BadCrossStyleCqrs.cs" />
+  </ItemGroup>
+
+</Project>

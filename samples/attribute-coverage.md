@@ -9,7 +9,7 @@ Status baseline: March 5, 2026
 | Attribute | Sample |
 |---|---|
 | `AggregateRoot` | `samples/01-ddd-core/DddCoreSample.cs`, `samples/06-analyzer-workbench/scenarios/good/checkout/GoodExample.cs` |
-| `AllowRepositoryComposition` | `samples/01-ddd-core/DddLegacyAndCompositionSample.cs`, `samples/06-analyzer-workbench/scenarios/violations/ddd/BadExample.cs` |
+| `AllowRepositoryComposition` | `samples/01-ddd-core/DddLegacyAndCompositionSample.cs`, `samples/01-ddd-core/violations/ddd/BadExample.cs` |
 | `ApplicationService` | `samples/01-ddd-core/DddCoreSample.cs`, `samples/06-analyzer-workbench/scenarios/good/checkout/GoodExample.cs` |
 | `BoundedContext` | `samples/01-ddd-core/DddCoreSample.cs`, `samples/05-entity-framework/EntityFrameworkSample.cs` |
 | `DomainService` | `samples/01-ddd-core/DddCoreSample.cs`, `samples/06-analyzer-workbench/scenarios/good/checkout/GoodExample.cs` |
@@ -18,7 +18,7 @@ Status baseline: March 5, 2026
 | `Identity` | `samples/01-ddd-core/DddCoreSample.cs`, `samples/06-analyzer-workbench/scenarios/good/checkout/GoodExample.cs` |
 | `Module` | `samples/01-ddd-core/DddCoreSample.cs`, `samples/05-entity-framework/EntityFrameworkSample.cs` |
 | `Repository` | `samples/01-ddd-core/DddCoreSample.cs`, `samples/06-analyzer-workbench/scenarios/good/checkout/GoodExample.cs` |
-| `Service` (legacy) | `samples/01-ddd-core/DddLegacyAndCompositionSample.cs`, `samples/06-analyzer-workbench/scenarios/violations/ddd/BadExample.cs` |
+| `Service` (legacy) | `samples/01-ddd-core/DddLegacyAndCompositionSample.cs`, `samples/01-ddd-core/violations/ddd/BadExample.cs` |
 | `ValueObject` | `samples/01-ddd-core/DddCoreSample.cs`, `samples/05-entity-framework/EntityFrameworkSample.cs` |
 
 ## Architecture (`NMolecules.Architecture`)

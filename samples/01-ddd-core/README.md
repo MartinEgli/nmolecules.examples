@@ -1,6 +1,7 @@
 # Block 01: DDD Core
 
 This block introduces the DDD marker family from `NMolecules.DDD`.
+It now also contains the DDD- and metadata-focused analyzer violations that used to sit in the analyzer workbench.
 
 ## Why This Block Exists
 
@@ -18,6 +19,8 @@ nMolecules makes those roles explicit with attributes so humans and tools share 
 
 - `DddCoreSample.cs`: complete mini-domain in one file
 - `DddLegacyAndCompositionSample.cs`: compatibility-focused examples for `[Entity]`, legacy `[Service]`, and `[AllowRepositoryComposition]`
+- `Samples.Block01.DddCore.Violations.csproj`: focused DDD analyzer violations
+- `Samples.Block01.DddCore.*.csproj`: isolated bounded-context and module metadata violations
 - assembly-level context/module metadata at the top
 - aggregate root + value object identity pattern
 - domain service for business policy
@@ -27,4 +30,4 @@ nMolecules makes those roles explicit with attributes so humans and tools share 
 
 1. Add a second aggregate root and reuse the same context metadata.
 2. Move an orchestration method from `OpenCustomerAccountUseCase` into `CustomerCreditPolicy` and verify whether that still fits the domain-service responsibility.
-3. Rename `CustomerRepository` to a domain language name and keep the `[Repository]` marker so the role remains explicit.
+3. Build `Samples.Block01.DddCore.Violations.csproj` and compare the broken DDD roles with the green sample.

@@ -3,6 +3,6 @@
   <Folder Name="/samples/02-architecture-styles/" />
   <Folder Name="/samples/02-architecture-styles/hexagonal/">
     <Project Path="samples/02-architecture-styles/hexagonal/Samples.Architecture.Hexagonal.csproj" />
+    <Project Path="samples/02-architecture-styles/hexagonal/Samples.Architecture.Hexagonal.Violations.csproj" />
   </Folder>
-  <Project Path="../nmolecules/src/nMolecules.Architecture/nMolecules.Architecture.csproj" />
 </Solution>

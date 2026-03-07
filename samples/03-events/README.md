@@ -1,6 +1,7 @@
 # Block 03: Events
 
 This block demonstrates event markers from `NMolecules.Events`.
+The event-specific analyzer violations now live next to the green event sample in this block.
 
 ## Why This Block Exists
 
@@ -20,9 +21,10 @@ This block shows how event payloads, publishers, and handlers become explicit ro
 - `scenarios/invoice-created/event/InvoiceCreated.cs` contains the payload of the use case
 - `scenarios/invoice-created/publishing/` contains the publisher contract and in-memory publisher
 - `scenarios/invoice-created/handling/` contains the audit and projection reactions for the same event
+- `Samples.Block03.Events.Violations.csproj` contains the intentionally broken event payload, publisher, and handler combinations
 
 ## Exercises
 
 1. Add a second event type (`InvoiceCancelled`) and separate handlers.
 2. Add a publisher method that emits both events and inspect diagnostics.
-3. Move one handler method to a delegate and keep the event marker explicit.
+3. Build `Samples.Block03.Events.Violations.csproj` and compare the broken event-flow signatures with the green sample.

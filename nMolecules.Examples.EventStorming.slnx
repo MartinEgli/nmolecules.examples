@@ -3,6 +3,6 @@
   <Folder Name="/samples/02-architecture-styles/" />
   <Folder Name="/samples/02-architecture-styles/event-storming/">
     <Project Path="samples/02-architecture-styles/event-storming/Samples.Architecture.EventStorming.csproj" />
+    <Project Path="samples/02-architecture-styles/event-storming/Samples.Architecture.EventStorming.Violations.csproj" />
   </Folder>
-  <Project Path="../nmolecules/src/nMolecules.Architecture/nMolecules.Architecture.csproj" />
 </Solution>

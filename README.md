@@ -20,15 +20,21 @@ All samples live in `samples/` and are grouped by increasing complexity.
 
 | Block | Focus | Covered Workspace Project |
 |---|---|---|
-| `01` | DDD core markers and role boundaries | `nmolecules/src/nMolecules.DDD` |
-| `02` | Architecture styles (one project per style: Layered, CQRS, Onion Classic, Onion Simplified, Hexagonal, Microservices, Event Storming, MVVM) | `nmolecules/src/nMolecules.Architecture` |
-| `03` | Domain events and handlers | `nmolecules/src/nMolecules.Events` |
-| `04` | Custom role modeling with Bricks | `nmolecules/src/nMolecules.Bricks` |
+| `01` | DDD core markers, role boundaries, and DDD/metadata violations | `nmolecules/src/nMolecules.DDD` |
+| `02` | Architecture styles (one green project per style, plus colocated violations where analyzers exist) | `nmolecules/src/nMolecules.Architecture` |
+| `03` | Domain events, handlers, and event violations | `nmolecules/src/nMolecules.Events` |
+| `04` | Custom role modeling with Bricks plus Bricks violations | `nmolecules/src/nMolecules.Bricks` |
 | `05` | EF metadata markers | `nmolecules/src/nMolecules.Persistence.EntityFramework` |
-| `06` | Analyzer diagnostics workbench (separate good/violations projects, analyzer active) | `nmolecules-integrations/nmolecules-roslyn/src/nMolecules.Analyzers` |
+| `06` | Analyzer diagnostics baseline (green checkout project with analyzers active) | `nmolecules-integrations/nmolecules-roslyn/src/nMolecules.Analyzers` |
 | `07` | DDD patterns derived from local PDF books | `nmolecules/src/nMolecules.DDD`, `nmolecules/src/nMolecules.Events` |
 
 This means each core nMolecules project and the analyzer project has at least one dedicated sample project.
+
+Sample projects intentionally follow one shared baseline:
+
+- common SDK defaults are centralized under `samples/Directory.Build.props`
+- block-level READMEs use the same teaching flow where possible
+- scenario-heavy blocks prefer `scenarios/` folders over flat file lists
 
 ## Quick Start
 
@@ -41,7 +47,7 @@ dotnet build .\nmolecules.examples\nMolecules.Examples.sln -v minimal
 Solution variants:
 
 - `nMolecules.Examples.Green.sln` / `nMolecules.Examples.Green.slnx`: all sample projects that are expected to build cleanly
-- `nMolecules.Examples.All.sln` / `nMolecules.Examples.All.slnx`: includes the intentional violations project (`Samples.Block06.AnalyzerViolations.csproj`)
+- `nMolecules.Examples.All.sln` / `nMolecules.Examples.All.slnx`: includes the intentional violations corpus
 - architecture-specific `.slnx` entry points:
 - `nMolecules.Examples.Layered.slnx`
 - `nMolecules.Examples.Cqrs.slnx`
@@ -59,7 +65,7 @@ dotnet build .\nmolecules.examples\nMolecules.Examples.Layered.slnx -v minimal
 dotnet build .\nmolecules.examples\nMolecules.Examples.Cqrs.slnx -v minimal
 ```
 
-Note: `All` is expected to report analyzer errors because it includes intentional violation samples.
+Note: `All` is expected to report analyzer errors because it includes intentional violation samples from Blocks 01 to 04.
 
 Or build sample projects individually:
 
@@ -98,7 +104,9 @@ For explicit attribute-to-sample mapping, see:
 
 ## Important Note About The Analyzer Workbench
 
-Block `06` now has two explicit projects:
+Block `06` is now only the green analyzer baseline.
+Intentional violations live next to the matching sample families in Blocks `01` to `04`.
+
+Block `06` has these explicit entry points:
 
 - `Samples.Block06.AnalyzerWorkbench.csproj`: green baseline with analyzers enabled
-- `Samples.Block06.AnalyzerViolations.csproj`: intentional violations (expected build failures)
