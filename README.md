@@ -23,7 +23,7 @@ All samples live in `samples/` and are grouped by increasing complexity.
 | `01` | DDD core markers, role boundaries, and DDD/metadata violations | `nmolecules/src/nMolecules.DDD` |
 | `02` | Architecture styles (one green project per style, plus colocated violations where analyzers exist) | `nmolecules/src/nMolecules.Architecture` |
 | `03` | Domain events, handlers, and event violations | `nmolecules/src/nMolecules.Events` |
-| `04` | Custom role modeling with Bricks plus Bricks violations | `nmolecules/src/nMolecules.Bricks` |
+| `04` | Custom role modeling with Bricks plus Bricks violations and a consumer-sample roadmap | `nmolecules/src/nMolecules.Bricks` |
 | `05` | EF metadata markers | `nmolecules/src/nMolecules.Persistence.EntityFramework` |
 | `06` | Analyzer diagnostics baseline (green checkout project with analyzers active) | `nmolecules-integrations/nmolecules-roslyn/src/nMolecules.Analyzers` |
 | `07` | DDD patterns derived from local PDF books | `nmolecules/src/nMolecules.DDD`, `nmolecules/src/nMolecules.Events` |

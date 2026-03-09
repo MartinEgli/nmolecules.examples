@@ -19,6 +19,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Include="domain-language-kits\billing\catalog\BillingRoles.cs" />
+    <Compile Include="domain-language-kits\billing\roles\BillingRoleMarkers.cs" />
+    <Compile Include="member-contracts\use-cases\*.cs" />
     <Compile Include="violations\BadBrickRules.cs" />
   </ItemGroup>
 

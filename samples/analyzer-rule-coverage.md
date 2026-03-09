@@ -31,6 +31,10 @@ Intentional violations now live in Blocks `01` to `04`, while Block `06` remains
 | Rule ids | Sample |
 |---|---|
 | `XMoleculesBricks0001`, `XMoleculesBricks0002` | `samples/04-bricks/violations/BadBrickRules.cs` via `Samples.Block04.Bricks.Violations.csproj` |
+| `XMoleculesBricks0003` | `samples/04-bricks/member-contracts/use-cases/OnlyOneUseCase.cs` via `Samples.Block04.Bricks.Violations.csproj` |
+| `XMoleculesBricks0004` | `samples/04-bricks/member-contracts/use-cases/AndAPlusBUseCase.cs` via `Samples.Block04.Bricks.Violations.csproj` |
+| `XMoleculesBricks0005` | `samples/04-bricks/member-contracts/use-cases/ExactlyTwoUseCase.cs` via `Samples.Block04.Bricks.Violations.csproj` |
+| `XMoleculesBricks0006` | `samples/04-bricks/member-contracts/use-cases/XorUseCase.cs` via `Samples.Block04.Bricks.Violations.csproj` |
 
 ## CqrsAnalyzers
 
